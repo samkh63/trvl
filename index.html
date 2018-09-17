@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Front-Edn developer test for blocklime" />
+<meta name="keywords" name="Blocklime, Test, Interview, HTML, CSS, Bootstrap, Front-End, Developer, " />
+<title>TRVL</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="lib/css/style.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+  	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#trvlnav">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+    <div class="navbar-header"> <a class="navbar-brand" href="#">
+    	
+    	<img src="lib/img/TRV_L.png" /></a> 
+    </div>
+    <div class="collapse navbar-collapse" id="trvlnav">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">Destinations <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">asia</a></li>
+            <li><a href="#">north amierica</a></li>
+            <li><a href="#">south america</a></li>
+            <li><a href="#">africa</a></li>
+            <li><a href="#">australia</a></li>
+            <li><a href="#">europe</a></li>
+          </ul>
+        </li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section class="container-fluid" id="hero">
+  <div class="container inner">
+    <div class="col-lg-3"></div>
+    <div class="col-lg-6" align="center" >
+      <div class="curve"></div>
+      <h3>Plan your next</h3>
+      <h2>Camping Trip</h2>
+    </div>
+    <div class="col-lg-3"></div>
+    <div class="clearfix" ></div>
+    <div class="col-lg-3"></div>
+    <div class="col-lg-6" align="center">
+    	<datalist id="place">
+          <option value="Top pick This Month">
+          <option value="Canada">
+          <option value="India">
+          <option value="Ferance">
+          <option value="South Korea">
+        </datalist>
+      <input autocomplete="off" type="search" placeholder="Where do you want to go ?" name="search" id="search" class="search form-control" list="place"/>
+    </div>
+    <div class="col-lg-3"></div>
+  </div>
+  <div class="push col-md-12 col-sm-12 col-xs-12"><img src="lib/img/paperclip-icon@2xw.png" /><br /><a href="#list" class="fas fa-angle-down fa-4x"></a></div>
+</section>
+<div class="foot row" style="margin-left:0 !important; margin-right:0 !important"></div>
+<section class="space100" id="list" >
+  <div class="container">
+    <div class="col-md-12 space30" align="center">
+      <h2 class="Lhead space10">Everything you need <br />
+        for perfect roadtrip</h2>
+      <img src="lib/img/paperclip-icon.png" style="margin-bottom:20px;" /> </div>
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 space20" align="center" > <img src="lib/img/mobile-home-icon.png" />
+      <p class="tips-p space20">mobile home</p>
+      <a class="btn tip-btn" href="#" >see list</a> 
+    </div>
+    
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 space20" align="center"> <img src="lib/img/backpack-icon.png" />
+      <p class="tips-p space20">a backpack</p>
+      <a class="btn tip-btn" href="#" >shop</a> 
+    </div>
+    
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 space20" align="center"> <img src="lib/img/survival-icon.png" />
+      <p class="tips-p space20">survival kit</p>
+      <a class="btn tip-btn" href="#" >see checklist</a> 
+    </div>
+    
+  </div>
+</section>
+<section id="third" class="container-fluid nopadd">
+  <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 nopadd hover"> <img src="lib/img/trvl-01.png" class="img-responsive trvl-t" /> <a class="item-hover-1" href="#"> </a> </div>
+  <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 nopadd hover"> <img src="lib/img/trvl-04.png" class="img-responsive trvl-t" /> 
+  	<a data-toggle="tooltip" title="<P>Plane a perfect trip!?</P><h4>ROAD TO MILFORD SOUND</h4>" class="item-hover-2" href="#"> 
+    	<span class="itinerary " id="itinerary"><span id="seeit">See Itinerary</span></span>
+    </a> 
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 nopadd hover"> <img src="lib/img/trvl-02.png" class="img-responsive trvl-t" /> <a class="item-hover-1" href="#"> </a> </div>
+  <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 nopadd hover"> <img src="lib/img/trvl-03.png" class="img-responsive trvl-t" /> <a class="item-hover-1" href="#"> </a> </div>
+</section>
+<section id="fourt" class="container-fluid ">
+  <div class="container space50">
+    <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 story"> <img src="lib/img/paperclip-icon.png" />
+      <h2>FEATURED STORY</h2>
+      <h5>trv:lr share her amazing experience in the outback of australia</h5>
+      <div class="col-md-12 collaps ">
+        <p style="text-align:justify">on the road for 6 months, i never thought i would survive the harsh heat and seclusion of the australian outback. i have never been so nervous about not having enough water or an empty tank it is <span style="color:#F00" id="readmore"> ...(read more)</span> <span class="collapse">the scariest moment in my life. But I do not regret having to seize this opportunity to explore the wonders of Australia from a different prespective away from tourism videos.</span> </p>
+      </div>
+    </div>
+    <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 " align="center"> <img src="lib/img/img.png" class="img-responsive" /> </div>
+  </div>
+</section>
+<footer>
+  <div class="container space20"> <img class="wclip" src="lib/img/paperclip-icon@2xw.png" />
+    <ul class="footer-menu">
+      <li><a href="#">contact</a></li>
+      <li><a href="#">blog</a></li>
+      <li><a href="#">Customer Support</a></li>
+    </ul>
+    <p class="copy">&copy; copyright 2018 </p>
+  </div>
+</footer>
+
+<script>
+$(document).ready(function() {
+	// hover effect //
+    $(".item-hover-2").hover(function() {
+		  $(".item-hover-2").css('background', 'rgba(0,0,0,0.5)' );
+	});
+	
+	$(function(){
+    $(".itinerary").hover(
+			function(){
+				$(this).animate({ "width" : "200px", "left" : "25%"}); 
+				
+			},
+			function(){
+				$(this).animate({ "width" : "50px", "left" : "44%"});
+				
+			}
+		);                             
+	});
+	
+	$(".itinerary").hover(
+		function(){
+			$(this).css("background", "#090", 5000)
+			$("#seeit").css("opacity", "1", 500)
+		},
+		function(){
+			$(this).css("background", " url(lib/img/view-icon.png) no-repeat center center", 5000);
+			$("#seeit").css("opacity", "0", 500)
+		}
+	);
+	
+	//read more effect //
+	$("#readmore").click(function() {
+		  $(".collapse").css("display", "initial");
+		  $("#readmore").hide();
+	});
+	
+	// enabeling the tooltip and also enable its content to accept html cde//
+	$('[data-toggle="tooltip"]').tooltip({html: true});   
+	
+	
+	// change tip image size based on window size//
+	   //Initial load of page
+	$(document).ready(sizeContent);
+	//Every resize of window
+	$(window).resize(sizeContent);
+	//Dynamically assign height
+	function sizeContent() {
+	   var newWidth = $(window).width()  + "px";
+	    $(".trvl-t").css("width", newWidth);
+	}
+
+});
+
+//Smooth Scrool for push at hero section but generally will work on any link with anchor //
+	$(document).ready(function($){
+    	var $root = $('html, body');
+    	$('a[href^="#"]').click(function() {
+        	var href = $.attr(this, 'href');
+        	$root.animate({
+            	scrollTop: $(href).offset().top
+        	}, 500, function () {
+            	window.location.hash = href;
+        	});
+         
+        return false;
+    });
+ 
+})
+
+
+</script>
+</body>
+</html>
